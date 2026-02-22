@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <defs>
+    <linearGradient id="wingGradL" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9b40b0"/>
+      <stop offset="100%" stop-color="#4a1860"/>
+    </linearGradient>
+    <linearGradient id="wingGradR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9b40b0"/>
+      <stop offset="100%" stop-color="#4a1860"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7b2d8e"/>
+      <stop offset="100%" stop-color="#3a1050"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20c080"/>
+      <stop offset="80%" stop-color="#1a8a5a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left wing — angular, swept back -->
+  <polygon points="300,140 280,200 180,280 60,400 80,420 200,340 280,260 300,200" fill="url(#wingGradL)"/>
+  <!-- Left wing tip — sharp downward -->
+  <polygon points="60,400 40,460 55,470 80,420" fill="#4a1860"/>
+
+  <!-- Right wing — angular, swept back -->
+  <polygon points="300,140 320,200 420,280 540,400 520,420 400,340 320,260 300,200" fill="url(#wingGradR)"/>
+  <!-- Right wing tip — sharp downward -->
+  <polygon points="540,400 560,460 545,470 520,420" fill="#4a1860"/>
+
+  <!-- Central body — angular raptor fuselage -->
+  <polygon points="300,80 330,200 340,340 300,420 260,340 270,200" fill="url(#bodyGrad)"/>
+  <!-- Body spine -->
+  <line x1="300" y1="100" x2="300" y2="400" stroke="#3a1050" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Tail feathers — V-shape below body -->
+  <polygon points="300,420 260,340 230,480 300,440" fill="#4a1860" opacity="0.7"/>
+  <polygon points="300,420 340,340 370,480 300,440" fill="#4a1860" opacity="0.7"/>
+
+  <!-- Head crest — sharp upward spike -->
+  <polygon points="300,80 310,50 300,30 290,50" fill="#9b40b0"/>
+
+  <!-- Eyes — emerald green -->
+  <circle cx="285" cy="170" r="6" fill="#20c080"/>
+  <circle cx="315" cy="170" r="6" fill="#20c080"/>
+  <circle cx="285" cy="170" r="2.5" fill="#0c0a10"/>
+  <circle cx="315" cy="170" r="2.5" fill="#0c0a10"/>
+
+  <!-- Emerald accent — chest chevron -->
+  <polyline points="270,220 300,250 330,220" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Outer ring — surveillance sigil -->
+  <circle cx="300" cy="260" r="130" fill="none" stroke="#7b2d8e" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="300" cy="260" r="145" fill="none" stroke="#7b2d8e" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- TAL SHIAR text -->
+  <text x="300" y="580" text-anchor="middle"
+        font-family="'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif"
+        font-size="64" font-weight="700" letter-spacing="18"
+        fill="#7b2d8e">TAL SHIAR</text>
+
+  <!-- Tagline -->
+  <text x="300" y="620" text-anchor="middle"
+        font-family="'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif"
+        font-size="18" font-weight="400" letter-spacing="8"
+        fill="#1a8a5a">VIGILANCE ETERNAL</text>
+
+  <!-- Thin accent line under text -->
+  <line x1="160" y1="640" x2="440" y2="640" stroke="#7b2d8e" stroke-width="1.5" opacity="0.4"/>
+</svg>
