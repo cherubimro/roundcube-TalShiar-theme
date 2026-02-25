@@ -1,8 +1,8 @@
 {
 	"name": "TalShiar",
 	"author": "Aleksander Machniak",
-	"license": "Creative Commons Attribution-ShareAlike",
-	"license-url": "http://creativecommons.org/licenses/by-sa/3.0/",
+	"license": "Creative Commons Attribution-ShareAlike 4.0 International",
+	"license-url": "https://creativecommons.org/licenses/by-sa/4.0/",
 	"config": {
 		"supported_layouts": ["widescreen"],
 		"jquery_ui_colors_theme": "bootstrap",

@@ -1,0 +1,16 @@
+{
+    "name": "cherubimro/roundcube-talshiar-theme",
+    "description": "A Romulan-themed dark violet skin for Roundcube Webmail based on Elastic",
+    "license": "CC-BY-SA-4.0",
+    "type": "roundcube-skin",
+    "homepage": "https://github.com/cherubimro/roundcube-TalShiar-theme",
+    "authors": [
+        {
+            "name": "Alin-Adrian Anton",
+            "email": "alin.anton@upt.ro"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.3.0"
+    }
+}
